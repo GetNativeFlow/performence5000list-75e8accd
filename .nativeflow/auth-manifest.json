@@ -1,0 +1,35 @@
+{
+  "_readme": "NativeFlow auth-codegen manifest. Do not edit by hand. Hand-edits made after download are not tracked here — once the ZIP leaves Studio there is no round-trip channel back. This file only tracks EXPORT-vs-EXPORT regressions, plus dependency and server-artifact ownership needed by the disable path.",
+  "version": 1,
+  "previousProvider": "supabase",
+  "previousEnabled": true,
+  "authManagedDependencies": [
+    "zustand",
+    "@supabase/supabase-js"
+  ],
+  "serverArtifacts": {
+    "rlsMigrations": [
+      "supabase/migrations/20261008145329_auth_rls.sql"
+    ],
+    "accessPolicyJson": null,
+    "policies": []
+  },
+  "files": {
+    "lib/auth/types.ts": "25239ffce56fbd72",
+    "lib/auth/store.ts": "eeedc9ca48b1c490",
+    "lib/auth/useAuth.ts": "e0e669db2f80b95d",
+    "lib/auth/challenge.ts": "ca798a7973844fc3",
+    "lib/auth/secureStorage.ts": "0cb7f2f053b1d8aa",
+    "lib/auth/apiClient.ts": "536711aa7b44d3b0",
+    "lib/auth/AuthGate.tsx": "fa24d9c32e9e61a9",
+    "lib/auth/DeepLinkGate.ts": "57c0c821b6104107",
+    "lib/auth/offlineQueue.ts": "d6ee0d584aedd52e",
+    "components/Can.tsx": "3d848fae39332fd8",
+    "lib/auth/adapter.ts": "12a83efc09fd485e",
+    "lib/auth/BiometricGate.tsx": "dea00f29d66bafff",
+    "lib/auth/BiometricEnrolmentSheet.tsx": "a18c8ec156149e4f",
+    "lib/auth/BiometricSettingsRow.tsx": "4695fad2768a0d8c",
+    "supabase/migrations/20261008145329_auth_rls.sql": "c24514ddda97310b"
+  },
+  "enforcementAnnotations": {}
+}
